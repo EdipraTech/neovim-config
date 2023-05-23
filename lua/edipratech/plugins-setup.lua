@@ -90,6 +90,8 @@ return packer.startup(function(use)
     -- bracket closer --
     use("jiangmiao/auto-pairs")
 
+    use("tpope/vim-fugitive")
+
     if packer_bootstrap then
         require("packer").sync()
     end
