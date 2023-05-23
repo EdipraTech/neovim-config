@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
 
+vim.g.user_emmet_leader_key = ","
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 local keymap = vim.keymap -- for conciceness
