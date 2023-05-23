@@ -96,6 +96,8 @@ return packer.startup(function(use)
 
     use("ervandew/supertab")
 
+    use("timonv/vim-cargo")
+
     if packer_bootstrap then
         require("packer").sync()
     end
