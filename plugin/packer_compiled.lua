@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/home/darpide/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  supertab = {
+    loaded = true,
+    path = "/home/darpide/.local/share/nvim/site/pack/packer/start/supertab",
+    url = "https://github.com/ervandew/supertab"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/darpide/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

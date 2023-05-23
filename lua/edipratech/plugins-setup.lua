@@ -94,6 +94,8 @@ return packer.startup(function(use)
 
     use("mattn/emmet-vim")
 
+    use("ervandew/supertab")
+
     if packer_bootstrap then
         require("packer").sync()
     end
