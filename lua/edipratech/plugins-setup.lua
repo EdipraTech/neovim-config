@@ -92,6 +92,8 @@ return packer.startup(function(use)
 
     use("tpope/vim-fugitive")
 
+    use("mattn/emmet-vim")
+
     if packer_bootstrap then
         require("packer").sync()
     end
