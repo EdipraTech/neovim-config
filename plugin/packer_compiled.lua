@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/edipratech/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
+  ["telescope-undo.nvim"] = {
+    loaded = true,
+    path = "/home/edipratech/.local/share/nvim/site/pack/packer/start/telescope-undo.nvim",
+    url = "https://github.com/debugloop/telescope-undo.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/edipratech/.local/share/nvim/site/pack/packer/start/telescope.nvim",
