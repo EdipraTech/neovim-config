@@ -49,3 +49,6 @@ local on_attach = function(client, bufnr)
         capabilities = capabilities,
         on_attach = on_attach,
     })
+    lspconfig.intelephense.setup {}
+    lspconfig.tsserver.setup {}
+    lspconfig.zls.setup {} 

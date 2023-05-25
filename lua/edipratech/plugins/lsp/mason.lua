@@ -13,16 +13,10 @@ mason.setup()
 mason_lspconfig.setup({
     ensure_installed = {
         "cmake",
-        "cssls",
-        "dockerls",
-        "docker_compose_language_service",
-        "html",
-        "jsonls",
         "jedi_language_server",
         "pylsp",
         "rust_analyzer",
-        "tsserver",
-        "emmet_ls",
+        "jdtls",
     },
     automatic_installation = true,
 })
